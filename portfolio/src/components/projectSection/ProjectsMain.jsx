@@ -5,32 +5,46 @@ import {motion} from 'framer-motion';
 import { fadeIn } from '../framerMotion/variants';
 
 const projects = [{
-     name: 'Vacation of africa',
-     year:'Mar2023',
+     name: 'Book Management',
+     year:'Mar2025',
      align:'right',
-     image:'../../images/website-img-1.jpg',
+     image:'../../images/bookstore.png',
      link:'#',
 },
 {
-     name: 'Moola app',
-     year:'Mar2024',
+     name: 'Food Recipe App',
+     year:'May2025',
      align:'left',
-     image:'../../images/website-img-2.webp',
+     image:'../../images/FoodRecipe.png',
       link:'#',
 },
 {
-    name: 'tourZania',
-    year:'dec2024',
+    name: 'BrainWave',
+    year:'Mar2025',
     align:'right',
-    image:'../../images/website-img-3.jpg',
-     link:'#',
+    image:'../../images/BrainWave.png',
+     link:'https://brainwave-gules-seven.vercel.app/',
 },
 {
-    name: 'Bank of Luck',
-    year:'Mar2025',
+    name: 'Sundown',
+    year:'Mar2024',
     align:'left',
-    image:'../../images/website-img-4.jpg',
-     link:'#',
+    image:'../../images/Sundown.png',
+     link:'https://sundown-umber.vercel.app/',
+},
+{
+    name: 'Product Explorer',
+    year:'Nov2025',
+    align:'right',
+    image:'../../images/productExplorer.png',
+    link:'https://product-explorer-one.vercel.app',
+},
+{
+    name:'DSA BOT',
+    year:'JAn2026',
+    align:'left',
+    image:'../../images/Coding Instructor AI.png',
+    link:'https://dsa-bot-kappa.vercel.app/',
 },
 ]
 
@@ -46,7 +60,14 @@ const ProjectsMain = () => {
         <Projectstext/></motion.div>
        <div className='flex flex-col gap-20 max-w-[900px] mx-auto mt-12'>
          {projects.map((item , index) => {
-             return <SingleProject key={index} name={item.name} year={item.year} align={item.align} image={item.image}/>
+             return <SingleProject 
+             key={index} 
+             name={item.name} 
+             year={item.year} 
+             align={item.align} 
+             image={item.image}
+             link={item.link} 
+             />
          })}
        </div>
     </div>

@@ -20,7 +20,7 @@ const FooterMain = () => {
             })}
          </ul>
        </div>
-       <p className='max-w-[1200px] text-right mt-2 mx-auto mb-12 text-sm text-lightBrown'>© 2025 Aanchal | All Rights Reserved.</p>
+       <p className='max-w-[1200px] text-right mt-2 mx-auto mb-12 text-sm text-lightBrown'>© 2026 Aanchal | All Rights Reserved.</p>
     </div>
   )
 }
