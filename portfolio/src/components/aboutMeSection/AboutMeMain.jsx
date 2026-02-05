@@ -1,4 +1,4 @@
-import AboutMeImage from "./aboutMeImage";
+import AboutMeImage from "./AboutMeImage";
 import AboutMeText from "./aboutMeText";
 import {motion} from 'framer-motion';
 import { fadeIn } from '../framerMotion/variants';
