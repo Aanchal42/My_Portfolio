@@ -1,4 +1,4 @@
-import NavbarMain from './components/navbar/NavbarMain'
+import NavbarMain from './components/navBar/NavbarMain'
 import HeroMain from './components/heroSection/HeroMain'
 import HeroGradient from './components/heroSection/HeroGradient'
 import SubHeroSection from './components/heroSection/SubHeroSection'
